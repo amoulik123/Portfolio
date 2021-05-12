@@ -26,12 +26,11 @@ export default function contact() {
               Let's connect!
             </h2>
             <h3 className="text-sm md:text-md">
-              Don't like forms? Send me an{' '}
+              Don't like forms? Send me an email at {' '}
               <a
                 href="mailto:amoulik@umich.edu"
                 className="text-blue-600 hover:underline"
               >
-                amoulik@umich.edu
               </a>
               . 👋
             </h3>
