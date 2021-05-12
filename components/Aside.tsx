@@ -66,6 +66,16 @@ export default function Aside() {
             </Link>
           </div>
         </div>
+
+        <div className="my-2 mb-8">
+          <h3 className="text-lg font-semibold pt-1">Skills</h3>
+          <div className="mt-2 flex flex-wrap gap-3">
+            <Pills text="Team Player" cname="bg-red-100 py-1" />
+            <Pills text="Creative" cname="bg-blue-100 py-1" />
+            <Pills text="Organized" cname="bg-purple-100 py-1" />
+            <Pills text="Problem Solver" cname="bg-green-100 py-1" />
+            <Pills text="Leadership" cname="bg-yellow-100 py-1" />
+          </div>
         </div>
       </aside>
     </>
