@@ -265,7 +265,7 @@ export default function Header() {
               }
             >
               <IoChatboxEllipsesOutline />
-            >
+            
             </div>
           </Link>
           <div className="p-2 ">
