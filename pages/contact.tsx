@@ -70,7 +70,7 @@ export default function contact() {
                 <span className="text-black-900">Email Address</span>
                 <input
                   type="email"
-                  className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  className="form-input mt-1 block w-full rounded-md border-black-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-100"
                   placeholder="user@domain.com"
                   name="Email"
                   id="Email"
@@ -80,7 +80,7 @@ export default function contact() {
                 <span className="text-black-900">Subject</span>
                 <input
                   type="text"
-                  className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  className="form-input mt-1 block w-full rounded-md border-black-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-100"
                   placeholder="message."
                   name="Subject"
                   id="Subject"
@@ -90,7 +90,7 @@ export default function contact() {
               <label className="block">
                 <span className="text-black-900">Message</span>
                 <textarea
-                  className="form-textarea mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                  className="form-textarea mt-1 block w-full rounded-md border-black-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-100"
                   rows={4}
                   placeholder="Great to know about you!"
                   name="Messege"
