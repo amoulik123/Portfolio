@@ -28,10 +28,10 @@ export default function contact() {
             <h3 className="text-sm md:text-md">
               Don't like forms? Send me an{' '}
               <a
-                href="mailto:user@domain.com"
+                href="mailto:amoulik@umich.edu"
                 className="text-blue-600 hover:underline"
               >
-                email
+                amoulik@umich.edu
               </a>
               . 👋
             </h3>
@@ -57,7 +57,7 @@ export default function contact() {
           <form>
             <div className="grid grid-cols-1 gap-6 md:max-w-md lg:max-w-lg">
               <label className="block">
-                <span className="text-gray-900">Full Name</span>
+                <span className="text-black-900">Full Name</span>
                 <input
                   type="text"
                   className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
@@ -67,7 +67,7 @@ export default function contact() {
                 />
               </label>
               <label className="block">
-                <span className="text-gray-900">Email Address</span>
+                <span className="text-black-900">Email Address</span>
                 <input
                   type="email"
                   className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
@@ -77,7 +77,7 @@ export default function contact() {
                 />
               </label>
               <label className="block">
-                <span className="text-gray-900">Subject</span>
+                <span className="text-black-900">Subject</span>
                 <input
                   type="text"
                   className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
@@ -88,7 +88,7 @@ export default function contact() {
               </label>
 
               <label className="block">
-                <span className="text-gray-900">Message</span>
+                <span className="text-black-900">Message</span>
                 <textarea
                   className="form-textarea mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                   rows={4}
