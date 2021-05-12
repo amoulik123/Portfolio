@@ -35,8 +35,7 @@ export default function contact() {
               . 👋
             </h3>
             <h4>
-              <span className="text-sm md:text-md font-semibold">Email : </span>
-              amoulik@umich.edu
+            
             </h4>
          
             <div className="mt-2">
