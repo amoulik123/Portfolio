@@ -48,8 +48,7 @@ export default function education() {
           </div>
           <div className="flex flex-wrap gap-3 my-3 text-sm md:ml-8">
             <Pills text="HTML" cname="bg-green-100 py-1 " />
-            <Pills text="CSS" cname="bg-blue-100 py-1" />
-            <Pills text="JavaScript" cname="bg-purple-100 py-1" />
+          
           </div>
 
           <div className="flex gap-2 items-center mt-6">
