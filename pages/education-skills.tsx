@@ -18,7 +18,7 @@ export default function education() {
       major: 'Computer Science',
       institute: 'University of Michigan, Ann Arbor',
       year: '2020 – Present',
-      grade: '3.82',
+      grade: 'GPA: 3.82',
     },
   };
 
