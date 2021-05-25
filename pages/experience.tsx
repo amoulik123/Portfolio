@@ -53,10 +53,10 @@ export default function skillsAndExperience() {
           date={internData.celebmark.date}
           place={internData.celebmark.place}
           desc={internData.celebmark.desc}
-          title={internData1.celebmark.title}
-          date={internData1.celebmark.date}
-          place={internData1.celebmark.place}
-          desc={internData1.celebmark.desc}
+          title1={internData1.celebmark.title}
+          date1={internData1.celebmark.date}
+          place1={internData1.celebmark.place}
+          desc1={internData1.celebmark.desc}
           //link={internData.celebmark.link}
           //linkText={internData.celebmark.linkText}
         />
