@@ -7,7 +7,7 @@ import Head from 'next/head';
 
 export default function skillsAndExperience() {
   const internData = {
-    celebmark: {
+    RR: {
       title: 'Electrical and Digital Engineering Co-op @ Rolls Royce',
       date: 'Aug 2021 – Present',
       place: 'Indianapolis, Indiana',
@@ -16,15 +16,14 @@ export default function skillsAndExperience() {
       //link: 'https://github.com/dntandan/celebmark',
       //linkText: 'Github Repository',
     },
-  };
-  const internData1={
-    celebmark:{
-       title: 'Intern @ Ernst & Young',
+    EY:{
+      title: 'Intern @ Ernst & Young',
       date: 'May 2021 – July 2021',
       place: 'Remote',
       desc:
         'Working on different new technologies',
     },
+    
   };
   const mentData = {
     techhub: {
@@ -49,16 +48,16 @@ export default function skillsAndExperience() {
       <Layout border="border-2">
         <h3 className="text-lg font-semibold mt-3">Internships</h3>
         <InternshipCard
-          title={internData.celebmark.title}
-          date={internData.celebmark.date}
-          place={internData.celebmark.place}
-          desc={internData.celebmark.desc}
-          title1={internData1.celebmark.title}
-          date1={internData1.celebmark.date}
-          place1={internData1.celebmark.place}
-          desc1={internData1.celebmark.desc}
-          //link={internData.celebmark.link}
-          //linkText={internData.celebmark.linkText}
+          title={internData.RR.title}
+          date={internData.RR.date}
+          place={internData.RR.place}
+          desc={internData.RR.desc}
+        />
+         <InternshipCard
+          title={internData.EY.title}
+          date={internData.EY.date}
+          place={internData.EY.place}
+          desc={internData.EY.desc}
         />
 
         <MentorshipCard
