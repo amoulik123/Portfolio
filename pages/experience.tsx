@@ -15,7 +15,11 @@ export default function skillsAndExperience() {
         'Working on different new technologies (Internship yet to start)',
       //link: 'https://github.com/dntandan/celebmark',
       //linkText: 'Github Repository',
-      title: 'Intern @ Ernst & Young',
+    },
+  };
+  const internData1={
+    celebmark:{
+       title: 'Intern @ Ernst & Young',
       date: 'May 2021 – July 2021',
       place: 'Remote',
       desc:
@@ -49,6 +53,10 @@ export default function skillsAndExperience() {
           date={internData.celebmark.date}
           place={internData.celebmark.place}
           desc={internData.celebmark.desc}
+          title={internData1.celebmark.title}
+          date={internData1.celebmark.date}
+          place={internData1.celebmark.place}
+          desc={internData1.celebmark.desc}
           //link={internData.celebmark.link}
           //linkText={internData.celebmark.linkText}
         />
