@@ -15,6 +15,11 @@ export default function skillsAndExperience() {
         'Working on different new technologies (Internship yet to start)',
       //link: 'https://github.com/dntandan/celebmark',
       //linkText: 'Github Repository',
+      title: 'Intern @ Ernst & Young',
+      date: 'May 2021 – July 2021',
+      place: 'Remote',
+      desc:
+        'Working on different new technologies',
     },
   };
   const mentData = {
